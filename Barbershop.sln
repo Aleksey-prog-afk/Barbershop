@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barbershop", "Barbershop\Barbershop.csproj", "{BFECFFF2-ABF6-4820-B5A9-45451807B667}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{8D36EF97-C0C2-4A6E-8857-5212FCC0D4FE}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "BarbershopDB", "BarbershopDB\BarbershopDB.sqlproj", "{ABC4B8DC-7382-4243-A264-D714ED6D469F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFECFFF2-ABF6-4820-B5A9-45451807B667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFECFFF2-ABF6-4820-B5A9-45451807B667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFECFFF2-ABF6-4820-B5A9-45451807B667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFECFFF2-ABF6-4820-B5A9-45451807B667}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABC4B8DC-7382-4243-A264-D714ED6D469F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABC4B8DC-7382-4243-A264-D714ED6D469F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABC4B8DC-7382-4243-A264-D714ED6D469F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{ABC4B8DC-7382-4243-A264-D714ED6D469F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABC4B8DC-7382-4243-A264-D714ED6D469F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABC4B8DC-7382-4243-A264-D714ED6D469F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ABC4B8DC-7382-4243-A264-D714ED6D469F} = {8D36EF97-C0C2-4A6E-8857-5212FCC0D4FE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {843ADA86-743A-4932-AF81-8A04B0C15BA3}
+	EndGlobalSection
+EndGlobal
