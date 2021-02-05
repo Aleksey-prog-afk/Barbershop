@@ -22,7 +22,6 @@ namespace Barbershop.Models
         public virtual DbSet<Master> Masters { get; set; }
         public virtual DbSet<Order> Orders { get; set; }
         public virtual DbSet<OrderDetail> OrderDetails { get; set; }
-        public virtual DbSet<Schedule> Schedules { get; set; }
         public virtual DbSet<Service> Services { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -40,7 +39,7 @@ namespace Barbershop.Models
 
             modelBuilder.Entity<Administrator>(entity =>
             {
-                entity.Property(e => e.Id).ValueGeneratedNever();
+                entity.Property(e => e.Id).ValueGeneratedOnAdd();
 
                 entity.Property(e => e.Login)
                     .HasMaxLength(10)
@@ -61,7 +60,7 @@ namespace Barbershop.Models
 
             modelBuilder.Entity<Client>(entity =>
             {
-                entity.Property(e => e.Id).ValueGeneratedNever();
+                entity.Property(e => e.Id).ValueGeneratedOnAdd();
 
                 entity.Property(e => e.Name).HasMaxLength(50);
 
@@ -70,21 +69,17 @@ namespace Barbershop.Models
 
             modelBuilder.Entity<Master>(entity =>
             {
-                entity.Property(e => e.Id).ValueGeneratedNever();
+                entity.Property(e => e.Id).ValueGeneratedOnAdd();
 
                 entity.Property(e => e.Name).HasMaxLength(50);
 
                 entity.Property(e => e.Phone).HasMaxLength(10);
 
-                entity.HasOne(d => d.Shedule)
-                    .WithMany(p => p.Masters)
-                    .HasForeignKey(d => d.SheduleId)
-                    .HasConstraintName("FK_Мастер_Расписание");
             });
 
             modelBuilder.Entity<Order>(entity =>
             {
-                entity.Property(e => e.Id).ValueGeneratedNever();
+                entity.Property(e => e.Id).ValueGeneratedOnAdd();
 
                 entity.Property(e => e.Date).HasColumnType("datetime");
 
@@ -119,14 +114,10 @@ namespace Barbershop.Models
                     .HasConstraintName("FK__Детали_За__id ус__30F848ED");
             });
 
-            modelBuilder.Entity<Schedule>(entity =>
-            {
-                entity.Property(e => e.Id).ValueGeneratedNever();
-            });
-
+          
             modelBuilder.Entity<Service>(entity =>
             {
-                entity.Property(e => e.Id).ValueGeneratedNever();
+                entity.Property(e => e.Id).ValueGeneratedOnAdd();
 
                 entity.Property(e => e.Price).HasColumnType("numeric(5, 2)");
 

@@ -19,7 +19,7 @@ namespace Barbershop.Models
         public virtual ICollection<OrderDetail> OrderDetails { get; set; }
         public override string ToString()
         {
-            return Title;
+            return Title + " " + Price;
         }
     }
 }

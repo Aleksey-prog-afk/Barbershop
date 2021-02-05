@@ -15,9 +15,13 @@ namespace Barbershop.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public string Phone { get; set; }
-        public int? SheduleId { get; set; }
-
-        public virtual Schedule Shedule { get; set; }
+        public TimeSpan WorkBegins { get; set; }
+        public TimeSpan WorkEnds { get; set; }
         public virtual ICollection<OrderDetail> OrderDetails { get; set; }
+
+        public override string ToString()
+        {
+            return Name + " " + this.WorkBegins + " " + this.WorkEnds;
+        }
     }
 }

@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[Administrators](
-	[Id] [int] NOT NULL,
+	[Id] [int] NOT NULL IDENTITY,
 	[Name] [nchar](50) NULL,
 	[Phone] [nchar](10) NULL,
 	[Login] [nchar](10) NULL,

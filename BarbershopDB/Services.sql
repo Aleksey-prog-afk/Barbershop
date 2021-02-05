@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[Services](
-	[Id] [int] NOT NULL,
+	[Id] [int] NOT NULL IDENTITY,
 	[Title] [nvarchar](50) NULL,
 	[Price] [numeric](5, 2) NULL,
 PRIMARY KEY CLUSTERED 

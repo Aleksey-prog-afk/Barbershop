@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[Orders](
-	[Id] [int] NOT NULL,
+	[Id] [int] NOT NULL IDENTITY,
 	[ClientId] [int] NULL,
 	[Date] [datetime] NULL,
 PRIMARY KEY CLUSTERED 

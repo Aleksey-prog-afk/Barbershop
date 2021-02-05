@@ -27,5 +27,23 @@ namespace Barbershop
             CreateOrder newForm = new CreateOrder();
             newForm.Show();
         }
+
+        private void changeScheduleButton_Click(object sender, EventArgs e)
+        {
+            if (Application.OpenForms.OfType<ChangeShedule>().Count() > 0)
+                return;
+            ChangeShedule newForm = new ChangeShedule();
+            newForm.Show();
+        }
+
+        private void createRecordButton_Click(object sender, EventArgs e)
+        {
+            CreateRecord createRecord = new CreateRecord();
+            createRecord.ShowDialog();
+            if (createRecord.DialogResult == DialogResult.OK)
+            {
+
+            }
+        }
     }
 }

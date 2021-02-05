@@ -63,7 +63,9 @@
     <Build Include="OrderDetails.sql" />
     <Build Include="Clients.sql" />
     <Build Include="Masters.sql" />
-    <Build Include="Schedule.sql" />
     <Build Include="Services.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="BarbershopDB.refactorlog" />
   </ItemGroup>
 </Project>

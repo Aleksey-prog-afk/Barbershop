@@ -52,6 +52,7 @@
             this.createRecordButton.TabIndex = 1;
             this.createRecordButton.Text = "Создать отчёт";
             this.createRecordButton.UseVisualStyleBackColor = true;
+            this.createRecordButton.Click += new System.EventHandler(this.createRecordButton_Click);
             // 
             // changeScheduleButton
             // 
@@ -61,6 +62,7 @@
             this.changeScheduleButton.TabIndex = 2;
             this.changeScheduleButton.Text = "Изменить расписание";
             this.changeScheduleButton.UseVisualStyleBackColor = true;
+            this.changeScheduleButton.Click += new System.EventHandler(this.changeScheduleButton_Click);
             // 
             // label1
             // 

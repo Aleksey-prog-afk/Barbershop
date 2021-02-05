@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[Clients](
-	[Id] [int] NOT NULL,
+	[Id] [int] NOT NULL IDENTITY,
 	[Name] [nvarchar](50) NULL,
 	[Phone] [nvarchar](10) NULL,
 PRIMARY KEY CLUSTERED 
