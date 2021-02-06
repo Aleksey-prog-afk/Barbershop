@@ -55,6 +55,8 @@ D:\C#\Barbershop\Barbershop\obj\Debug\netcoreapp3.1\Barbershop.csproj.CopyComple
 D:\C#\Barbershop\Barbershop\obj\Debug\netcoreapp3.1\Barbershop.Login.resources
 D:\C#\Barbershop\Barbershop\obj\Debug\netcoreapp3.1\Barbershop.ChangeShedule.resources
 D:\C#\Barbershop\Barbershop\obj\Debug\netcoreapp3.1\Barbershop.CreateOrder.resources
-D:\C#\Barbershop\Barbershop\obj\Debug\netcoreapp3.1\Barbershop.CreateRecord.resources
 D:\C#\Barbershop\Barbershop\obj\Debug\netcoreapp3.1\Barbershop.Menu.resources
 D:\C#\Barbershop\Barbershop\obj\Debug\netcoreapp3.1\Barbershop.AddClient.resources
+D:\C#\Barbershop\Barbershop\obj\Debug\netcoreapp3.1\Barbershop.CreateRecordData.resources
+D:\C#\Barbershop\Barbershop\obj\Debug\netcoreapp3.1\Barbershop.Records.resources
+D:\C#\Barbershop\Barbershop\obj\Debug\netcoreapp3.1\Barbershop.Orders.resources

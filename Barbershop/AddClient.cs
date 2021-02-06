@@ -20,6 +20,12 @@ namespace Barbershop
 
         private void button1_Click(object sender, EventArgs e)
         {
+            if (this.textBox1.Text == "" || this.textBox2.Text == "")
+            {
+                MessageBox.Show("Введи данные");
+                this.DialogResult = DialogResult.Abort;
+                return;
+            }
             clientName = this.textBox1.Text;
             clientPhone = this.textBox2.Text;
         }

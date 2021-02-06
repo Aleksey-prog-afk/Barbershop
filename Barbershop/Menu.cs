@@ -38,11 +38,14 @@ namespace Barbershop
 
         private void createRecordButton_Click(object sender, EventArgs e)
         {
-            CreateRecord createRecord = new CreateRecord();
+            CreateRecordData createRecord = new CreateRecordData();
             createRecord.ShowDialog();
             if (createRecord.DialogResult == DialogResult.OK)
             {
-
+                if (Application.OpenForms.OfType<Records>().Count() > 0)
+                    return;
+                Records newForm = new Records(createRecord.start, createRecord.end);
+                newForm.Show();
             }
         }
     }

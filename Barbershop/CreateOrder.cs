@@ -99,5 +99,16 @@ namespace Barbershop
             }
             return flag;
         }
+
+        private void CreateOrder_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Orders orders = new Orders();
+            orders.ShowDialog();
+        }
     }
 }

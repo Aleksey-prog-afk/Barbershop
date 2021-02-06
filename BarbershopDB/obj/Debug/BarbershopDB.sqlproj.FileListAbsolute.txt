@@ -4,3 +4,7 @@ D:\C#\Barbershop\BarbershopDB\bin\Debug\BarbershopDB.pdb
 D:\C#\Barbershop\BarbershopDB\obj\Debug\BarbershopDB.sqlprojAssemblyReference.cache
 D:\C#\Barbershop\BarbershopDB\obj\Debug\BarbershopDB.dll
 D:\C#\Barbershop\BarbershopDB\obj\Debug\BarbershopDB.pdb
+D:\C#\Barbershop\BarbershopDB\obj\Debug\Model.xml
+D:\C#\Barbershop\BarbershopDB\obj\Debug\refactor.xml
+D:\C#\Barbershop\BarbershopDB\obj\Debug\postdeploy.sql
+D:\C#\Barbershop\BarbershopDB\obj\Debug\predeploy.sql

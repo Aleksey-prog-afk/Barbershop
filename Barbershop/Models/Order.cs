@@ -14,6 +14,7 @@ namespace Barbershop.Models
 
         public int Id { get; set; }
         public int? ClientId { get; set; }
+        public bool IsCanceled { get; set; }
         public DateTime? Date { get; set; }
 
         public virtual Client Client { get; set; }
