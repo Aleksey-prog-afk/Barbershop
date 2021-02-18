@@ -60,3 +60,4 @@ D:\C#\Barbershop\Barbershop\obj\Debug\netcoreapp3.1\Barbershop.AddClient.resourc
 D:\C#\Barbershop\Barbershop\obj\Debug\netcoreapp3.1\Barbershop.CreateRecordData.resources
 D:\C#\Barbershop\Barbershop\obj\Debug\netcoreapp3.1\Barbershop.Records.resources
 D:\C#\Barbershop\Barbershop\obj\Debug\netcoreapp3.1\Barbershop.Orders.resources
+D:\C#\Barbershop\Barbershop\bin\Debug\netcoreapp3.1\itextsharp.dll

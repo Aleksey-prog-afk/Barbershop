@@ -1,9 +1,10 @@
 ﻿CREATE TABLE [dbo].[Administrators](
 	[Id] [int] NOT NULL IDENTITY,
-	[Name] [nchar](50) NULL,
-	[Phone] [nchar](10) NULL,
-	[Login] [nchar](10) NULL,
-	[Password] [nchar](10) NULL,
+	[Name] [nvarchar](50) NULL,
+	[Phone] [nvarchar](50)  NULL,
+	[Login] [nvarchar](50)  NULL,
+	[Password] [nvarchar](50)  NULL,
+	[Salt] [nvarchar](50)  NULL,
  CONSTRAINT [PK_Администратор] PRIMARY KEY CLUSTERED 
 (
 	[Id] ASC
